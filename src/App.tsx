@@ -1,0 +1,7 @@
+import React from "react";
+
+const App = () => {
+  return <h2>Redux Toolkit</h2>;
+};
+
+export default App;
