@@ -1,7 +1,12 @@
 import React from "react";
+import Navbar from "./components/Navbar";
 
 const App = () => {
-  return <h2>Redux Toolkit</h2>;
+  return (
+    <main>
+      <Navbar />
+    </main>
+  );
 };
 
 export default App;
