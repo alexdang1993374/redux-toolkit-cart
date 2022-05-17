@@ -1,7 +1,7 @@
 import { createSlice } from "@reduxjs/toolkit";
 import cartItems from "../../cartItems";
 
-interface CartItemProps {
+export interface CartItemProps {
   id: string;
   title: string;
   price: string;
