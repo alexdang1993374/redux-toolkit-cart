@@ -25,9 +25,14 @@ const initialState: InitialStateProps = {
 const cartSlice = createSlice({
   name: "cart",
   initialState,
-  reducers: {},
+  reducers: {
+    clearCart: (state) => {
+      state.cartItems = [];
+    },
+  },
 });
 
 // console.log(cartSlice);
+export const { clearCart } = cartSlice.actions;
 
 export default cartSlice.reducer;
